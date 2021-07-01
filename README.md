@@ -112,4 +112,4 @@ end
 </pre></code>
 
 ## Purchase
-Arrow Vomit will be available for purchase in the near future as a Non-Fungible Token (NFT) for 3.00 BTC. Thank you for your patience. 
+Arrow Vomit will be available for purchase in the near future as a Non-Fungible Token (NFT) for 3.00 BTC. 
