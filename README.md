@@ -14,7 +14,7 @@ You can run the masterpiece yourself using the [nlogo file](https://github.com/G
 <div style="text-align:center"><img src="https://github.com/G-Justin/ALT-Cellular-Automata/blob/master/Screenshot%202021-07-01%20182602.png" height="400" /></div>
 
 
-Arrow Vomit was created by first creating 14 arrows (turtles) and splitting them into 7 pairs. Each pair is spread out along the x-axis of the world by 5 patches from the center, where each arrow in the pair is set to opposing 45 degree angles.
+Arrow Vomit was created by first creating 14 arrows (turtles) and splitting them into 7 pairs. Each pair is spread out along the x-axis of the world by 5 patches from the center, where each arrow in the pair is set to opposing 45 degree angles. All of the arrows were then intialized with the `pen-down` property, for drawing their respective lines.
 
 `setup`:
 <pre><code>
