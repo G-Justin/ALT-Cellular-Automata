@@ -18,7 +18,7 @@ Arrow Vomit was created by first creating 14 arrows (turtles) and splitting them
 
 `setup`:
 <pre><code>
- to setup
+to setup
   clear-all
   reset-ticks
   create-turtles 14
