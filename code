@@ -1,0 +1,85 @@
+to setup
+  clear-all
+  reset-ticks
+  create-turtles 14
+
+  ;;group 0
+  ask turtle 0 [
+    set heading 45
+    setxy 5 0
+  ]
+  ask turtle 1 [
+    set heading -45
+    setxy 5 0
+  ]
+
+  ;;group 1
+  ask turtle 2 [
+    set heading 45
+    setxy 10 0
+  ]
+  ask turtle 3 [
+    set heading -45
+    setxy 10 0
+  ]
+
+  ;;group 2
+  ask turtle 4 [
+    set heading 45
+    setxy 15 0
+  ]
+
+  ask turtle 5 [
+    set heading -45
+    setxy 15 0
+  ]
+
+  ;;group 4
+  ask turtle 6 [
+    set heading 45
+    setxy -5 0
+  ]
+  ask turtle 7 [
+    set heading -45
+    setxy -5 0
+  ]
+
+  ;;group 5
+  ask turtle 8 [
+    set heading 45
+    setxy -10 0
+  ]
+  ask turtle 9 [
+    set heading -45
+    setxy -10 0
+  ]
+
+  ;;group 6
+  ask turtle 10 [
+    set heading 45
+    setxy -15 0
+  ]
+  ask turtle 11 [
+    set heading -45
+    setxy -15 0
+  ]
+
+  ;;group 7
+  ask turtle 12 [
+    set heading 45
+  ]
+  ask turtle 13 [
+    set heading -45
+  ]
+  
+  ask turtles [
+    pen-down
+  ]
+end
+
+to go
+  ask turtles [
+    forward 3
+    set color one-of remove gray base-colors
+  ]
+end
