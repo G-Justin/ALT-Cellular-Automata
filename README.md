@@ -17,8 +17,7 @@ You can run the masterpiece yourself using the [nlogo file](https://github.com/G
 Arrow Vomit was created by first creating 14 arrows (turtles) and splitting them into 7 pairs. Each pair is spread out along the x-axis of the world by 5 patches from the center, where each arrow in the pair is set to opposing 45 degree angles. All of the arrows were then intialized with the `pen-down` property, for drawing their respective lines.
 
 `setup`:
-<pre><code>
-to setup
+<pre><code>to setup
   clear-all
   reset-ticks
   create-turtles 14
@@ -102,8 +101,7 @@ end
 The `go` button executes the `go` function "forever" until pressed again. The `go` function moves all the arrows forward by 3 patches, with each move changing the arrow's color to a random non-gray Netlogo base color.
 
 `go`:
-<pre><code>
-to go
+<pre><code>to go
   ask turtles [
     forward 3
     set color one-of remove gray base-colors
