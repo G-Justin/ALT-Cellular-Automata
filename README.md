@@ -3,10 +3,10 @@ Arrow Vomit is a post-modern *masterpiece* created with [Netlogo](https://ccl.no
 
 
 <div style="text-align:center"><img src="https://github.com/G-Justin/ALT-Cellular-Automata/blob/master/arrow_vomit.gif" height="400" /></div>
-**Animated**
+Animated
 
 <div style="text-align:center"><img src="https://github.com/G-Justin/ALT-Cellular-Automata/blob/master/arrow_vomit%20view.png" height="400" /></div>
-**Still**
+Still
 
 ## Documentation
 You can run the masterpiece yourself using the [nlogo file](https://github.com/G-Justin/ALT-Cellular-Automata/blob/master/arrow_vomit.nlogo). Just click the `setup` to initialize the arrows with random colors, then press `go`. 
